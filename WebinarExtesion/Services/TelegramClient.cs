@@ -8,7 +8,7 @@ namespace WebinarExtension.servext.Services
 {
     internal class TelegramClient
     {
-        private readonly string _accessToken = "1614942357:AAGTIPtppMjgKHYWPdoMlfQ0M-YPs8ZIdjQ";
+        private readonly string _accessToken = "";
 
         public void SendMessage(INPerson person, List<Person> currentUsers, string message)
         {
